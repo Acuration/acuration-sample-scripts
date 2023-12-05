@@ -21,7 +21,7 @@ def get_cleaned_file(strhtml):
 
 
 if __name__ == "__main__":
-  path = "/home/srallaba/Acuration/POC_MANUAL/acuration-demos-pranav/pranavsusarla/scrapped_files/html_files/"
+  path = "P"
   write_path = "/home/srallaba/Acuration/POC_MANUAL/cleaned_files_suzlon/"
   files = list_files(path)
   for file in files:
