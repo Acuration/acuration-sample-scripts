@@ -21,8 +21,8 @@ def get_cleaned_file(strhtml):
 
 
 if __name__ == "__main__":
-  path = "P"
-  write_path = "/home/srallaba/Acuration/POC_MANUAL/cleaned_files_suzlon/"
+  path = "PATH_WHERE_HTML_FILES_ARE_STORED"
+  write_path = "PATH_WHERE_CLEANED_FILES_NEED_TO_BE_WRITTEN"
   files = list_files(path)
   for file in files:
     print(path+file)
